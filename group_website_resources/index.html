@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Bio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<header>
+    <h1>Meet Group 8</h1>
+    <!-- Example team logo -->
+    <img src="img/Group8LogoMed.png" alt="Team Logo" class="Group8LogoMed">
+
+    <!-- Navigation menu to switch between sections -->
+    <nav>
+        <button onclick="showSection('bios')">Team Bios</button>
+        <button onclick="showSection('vision')">Team Vision</button>
+    </nav>
+</header>
+
+<!-- Team bios section (default section) -->
+<div id="bios" class="container"1   21qws3aerdf43ftg5ydh6fujdrew>
+    <!-- Each card represents an individual team member -->
+    <div class="card">
+        <h2>John Doe</h2>
+        <p>Frontend Developer</p>
+        <button onclick="toggleBio('bio1')">Show Bio</button>
+        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+    </div>
+    <div class="card">
+        <h2>Jane Smith</h2>
+        <p>Backend Developer</p>
+        <button onclick="toggleBio('bio2')">Show Bio</button>
+        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+    </div>
+    <div class="card">
+        <h2>Emily Johnson</h2>
+        <p>UI/UX Designer</p>
+        <button onclick="toggleBio('bio3')">Show Bio</button>
+        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+    </div>
+</div>
+
+<!-- Team vision/mission statement section (hidden by default) -->
+<div id="vision" class="container" style="display: none;">
+    <h2>Hello! We're Group 8.</h2>
+    <p>We are computer science students who strive to meet our goals. We are a team that focuses on teamwork, communication, and helping each other through various obstacles. We believe that teamwork is the most important aspect of software development, and a way to help each other grow technically and personally. Our strengths include adaptability, efficiency, teamwork, and perseverance. Our goal as a team is to create code that is efficient and reliable, while also contributing as much as possible to brainstorming, planning, and fixing errors in code.
+</p>
+</div>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>
