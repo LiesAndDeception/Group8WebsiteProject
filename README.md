@@ -2,7 +2,7 @@
 
 <p>Group Members:<br>
 Peter Crean<br>
-Johnson Luu <br>
+Johnson Luu<br>
 Sophia Godfrey<br>
 Zanib Kashmary</p>
 
