@@ -117,7 +117,7 @@ button:hover {
 }
 
 .avatar {
-  width: 100px;
+  width: 100px; /* new avatar style */
   height: 100px;
   object-fit: cover;
   margin-bottom: 10px;
