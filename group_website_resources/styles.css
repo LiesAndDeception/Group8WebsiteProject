@@ -116,6 +116,16 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add subtle shadow for better look */
 }
 
+.cardjohnson {
+  background-color: #7AE582;  /* Baby pink */
+  padding: 20px;  /* Add some padding inside the card */
+  border-radius: 10px;  /* Optional: Rounded corners */
+  text-align: center;
+  width: 250px; /* Optional: Adjust width to fit content */
+  align-items: center;  /* This centers the items horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add subtle shadow for better look */
+}
+
 .avatar {
   width: 100px; /* new avatar style */
   height: 100px;
