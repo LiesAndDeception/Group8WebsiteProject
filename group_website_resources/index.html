@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <!-- Add Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
@@ -15,20 +17,62 @@
 
     <!-- Navigation menu to switch between sections -->
     <nav>
-        <button onclick="showSection('bios')">Team Bios</button>
+        <button onclick="showSection('bios')">Meet the Team</button>
         <button onclick="showSection('vision')">Team Vision</button>
     </nav>
 </header>
 
-<!-- Team bios section (default section) -->
+<!-- Team bios section (default section)  -->
 <div id="bios" class="container"1   21qws3aerdf43ftg5ydh6fujdrew>
     <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+    <div class="cardsophia">
+        <h2>Sophia Godfrey</h2>
+        <img src="img/SophiaAvatar.jpg" alt="Sophia's Avatar" class="avatar">
+        <p>Scrum Master</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
-    </div>
+        <div id="bio1" class="bio" style="display: none;">
+            <a href="https://github.com/QueenSophiaLo" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-Visit_My_Page-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Link">
+            </a><br><br>
+
+            <!-- List of Languages -->
+            <ul class="languages-list">
+                <li class="language">
+                    <img src="img/cplusplusicon.png" alt="C++ Icon" class="language-icon"> C++
+                </li>
+                <li class="language">
+                    <i class="fab fa-python" style="color: #306998;"></i> Python
+                </li>
+                <li class="language">
+                    <img src="img/matlabicon.png" alt="MATLAB Icon" class="language-icon"> MATLAB
+                </li>
+                <li class="language">
+                    <i class="fas fa-cogs" style="color: #FF9A00;"></i> YAML
+                </li>
+                <li class="language">
+                    <i class="fas fa-microchip" style="color: #A3A3A3;"></i> LC-3 (Assembly)
+                </li>
+                <li class="language">
+                    <i class="fas fa-microchip" style="color: #A3A3A3;"></i> LEGv8 (Assembly)
+                </li>
+                <li class="language">
+                    <i class="fab fa-html5" style="color: #E34F26;"></i> HTML
+                </li>
+                <li class="language">
+                    <i class="fab fa-css3-alt" style="color: #1572B6;"></i> CSS
+                </li>
+                <li class="language">
+                    <i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript
+                </li>
+                <li class="language">
+                    <i class="fas fa-database" style="color: #F29111;"></i> SQL
+                </li>
+            </ul>
+
+            <p>Sophia is a dedicated Scrum Master who ensures smooth team communication and workflow using Agile methodology.</p>
+        <div class="tenor-gif-embed" data-postid="16601149" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/kitten-cat-typing-typing-cat-thank-goodness-gif-16601149">Kitten Cat GIF</a>from <a href="https://tenor.com/search/kitten-gifs">Kitten GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+</div>
     <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
@@ -41,13 +85,44 @@
         <button onclick="toggleBio('bio3')">Show Bio</button>
         <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
     </div>
+    <div class="card">
+        <h2>last member</h2>
+        <p>UI/UX Designer</p>
+        <button onclick="toggleBio('bio4')">Show Bio</button>
+        <p id="bio4" class="bio">last bio</p>
+    </div>
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
-    <h2>Hello! We're Group 8.</h2>
-    <p>We are computer science students who strive to meet our goals. We are a team that focuses on teamwork, communication, and helping each other through various obstacles. We believe that teamwork is the most important aspect of software development, and a way to help each other grow technically and personally. Our strengths include adaptability, efficiency, teamwork, and perseverance. Our goal as a team is to create code that is efficient and reliable, while also contributing as much as possible to brainstorming, planning, and fixing errors in code.
+    <div class="box">
+        <h2>Hello! We're Group 8.</h2>
+    <p>We are computer science students who strive to meet our goals.
+        We are a team that focuses on teamwork, communication, and helping
+        each other through various obstacles. We believe that teamwork is
+        the most important aspect of software development, and a way to help
+        each other grow technically and personally. Our strengths include
+        adaptability, efficiency, teamwork, and perseverance. Our goal as
+        a team is to create code that is efficient and reliable, while also
+        contributing as much as possible to brainstorming, planning, and
+        fixing errors in code.
 </p>
+</div>
+<div class="tenor-gif-embed" data-postid="15997849587350162707" data-share-method="host" data-aspect-ratio="1.09692" data-width="100%"><a href="https://tenor.com/view/aerobics-dance-cool-gif-15997849587350162707">Aerobics Dance GIF</a>from <a href="https://tenor.com/search/aerobics-gifs">Aerobics GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>    <div class="box">
+        <h2>Our Rules For Success!</h2>
+        <ol>
+            <li>Complete your work by the team's proposed deadlines.</li>
+            <li>Respect each other's ideas and opinions.</li>
+            <li>Make sure to attend the weekly meeting(s) with the team.</li>
+            <li>Don’t be afraid to voice opinions and concerns with the team.</li>
+            <li>If you are unable to complete your tasks or attend group meetings, inform the team in a timely manner.</li>
+            <li>During group meetings stay on topic and focus on the project.</li>
+        </ol>
+    </div>
+    <div class="box">
+        <h2>Check out our Github page <a href="https://github.com/LiesAndDeception/Group8WebsiteProject/" target="_blank">here</a>!</h2>
+    </div>
+    <div class="tenor-gif-embed" data-postid="26568329" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/dan-shiffman-coding-code-debug-bug-gif-26568329">Dan Shiffman Coding GIF</a>from <a href="https://tenor.com/search/dan+shiffman-gifs">Dan Shiffman GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
