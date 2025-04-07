@@ -88,3 +88,37 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.box {
+    border: 2px solid #4a90e2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* This centers the items horizontally */
+  justify-content: center;  /* This centers the items vertically */
+  text-align: center;  /* This centers text inside the card */
+}
+
+.cardsophia {
+  background-color: #FDD5DF;  /* Baby pink */
+  padding: 20px;  /* Add some padding inside the card */
+  border-radius: 10px;  /* Optional: Rounded corners */
+  text-align: center;
+  width: 250px; /* Optional: Adjust width to fit content */
+  align-items: center;  /* This centers the items horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add subtle shadow for better look */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
